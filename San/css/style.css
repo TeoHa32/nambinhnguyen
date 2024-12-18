@@ -103,9 +103,10 @@
 
     
 }
-#header-bot .angle i:hover{
+#header-bot .angle i:hover i{
     background-color: #fafafa;
     cursor: pointer;
+   
 }
 #header-bot .angle i:first-child{
     
@@ -115,6 +116,7 @@
    
 }
 #header-bot .angle i:last-child{
+    
     padding: 15px;
     transition: background-color 0.5s;
 }
@@ -131,6 +133,8 @@
     width: 80%;
     margin: 0px auto;
     display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 #wp-content #wp-content-welcome .welcome div.welcome-left{
@@ -138,4 +142,13 @@
     font-size: 20px;
     font-weight: bold;
     padding-right: 50px;
+    border-right: 4px solid #12A0B1 ;
+}
+
+#wp-content #wp-content-welcome .welcome div.welcome-right{
+    padding-left: 50px;
+    color: #AFC0CF;
+    font-size: 16px;
+    font-style: italic;
+
 }
