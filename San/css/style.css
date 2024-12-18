@@ -1,0 +1,141 @@
+*{
+    padding:0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#wrapper{
+    width: 100%;
+    
+
+}
+#wrapper #header #header-top{
+    display: flex;
+    
+    justify-content: space-between;
+    padding-top: 7px;
+    background-color: #fafafa ;
+    padding-bottom: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#wrapper #header #header-top .header-top-left{
+    display: flex;  
+}
+#wrapper #header #header-top .header-top-left .header-top-left-name{
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 5px;
+}
+
+#wrapper #header #header-top .header-top-right{
+    font-size: 13px;
+    font-weight: bold;
+    display: flex;
+
+}
+#wrapper #header #header-top .header-top-right div{
+    padding-top: 2px;
+    padding-right: 30px;
+    display: flex;
+}
+#wrapper #header #header-top .header-top-right div i{
+    font-size: 15px;
+    padding-top: 3px;
+    padding-right: 3px;
+}
+#wrapper #header #header-middle{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+#wrapper #header #header-middle .logo{
+    width: 17%;
+}
+#wrapper #header #header-middle .logo img{
+    max-width: 100%;
+}
+#wrapper #header #header-middle .header-menu{
+
+}
+#wrapper #header #header-middle .header-menu ul.menu{
+    display: flex;
+}
+#wrapper #header #header-middle .header-menu ul.menu li{
+    padding-top:32px;
+}
+#wrapper #header #header-middle .header-menu ul.menu li a{
+    padding-right: 20px;
+    font-size: 17px;
+    color: black;
+    font-weight: bold;
+    transition: all 0.5s;
+    
+}
+#wrapper #header #header-middle .header-menu ul.menu li a:hover{
+    color: #3a3f93;
+}
+#header-bot{
+    position: relative;
+}
+#header-bot .banner{
+    width: 100%;
+}
+#header-bot .banner img{
+  width: 100%;
+  height: auto;
+}
+#header-bot .angle:hover i{
+    border-radius: 10%;
+    background-color: #fafafa;
+}
+#header-bot .angle{
+    width: 100%;
+    position:absolute;
+    top:50%;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+#header-bot .angle i:hover{
+    background-color: #fafafa;
+    cursor: pointer;
+}
+#header-bot .angle i:first-child{
+    
+    transition: background-color 0.5s;
+    padding: 15px;
+    
+   
+}
+#header-bot .angle i:last-child{
+    padding: 15px;
+    transition: background-color 0.5s;
+}
+
+
+#wp-content{
+    width: 100%;
+}
+#wp-content #wp-content-welcome{
+    
+    background-color: #183650;
+}
+#wp-content #wp-content-welcome .welcome{
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+}
+
+#wp-content #wp-content-welcome .welcome div.welcome-left{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 50px;
+}
