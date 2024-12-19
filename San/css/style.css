@@ -133,8 +133,8 @@
     width: 80%;
     margin: 0px auto;
     display: flex;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 #wp-content #wp-content-welcome .welcome div.welcome-left{
@@ -151,4 +151,39 @@
     font-size: 16px;
     font-style: italic;
 
+}
+
+
+
+#content{
+    width: 70%;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+#content .box{
+    width: 40%;
+    padding: 5%;
+    display: flex;
+}
+#content .box .box-left{
+    
+    padding-left: 3%;
+}
+#content .box .box-right{
+    margin-left: 3%;
+}
+#content .box .box-right .box-title{
+    text-transform:uppercase;
+    
+}
+#content .box .box-right .box-dec{
+    font-family: 'Lato', sans-serif;
+    color: #898989;
+}
+#content-container{
+    padding-left: 20%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-between;
 }
