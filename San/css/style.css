@@ -86,9 +86,12 @@
 #header-bot .banner{
     width: 100%;
 }
-#header-bot .banner img{
-  width: 100%;
+#header-bot .banner video.fullscreen{
+  width: 100vw;
+  height: 100vh;
   height: auto;
+  object-fit: cover;
+  
 }
 #header-bot .angle:hover i{
     border-radius: 10%;
@@ -133,8 +136,8 @@
     width: 80%;
     margin: 0px auto;
     display: flex;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 #wp-content #wp-content-welcome .welcome div.welcome-left{
@@ -150,5 +153,140 @@
     color: #AFC0CF;
     font-size: 16px;
     font-style: italic;
+
+}
+#content{
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+#content .box{
+    width: 40%;
+    padding: 5%;
+    display: flex;
+}
+#content .box .box-left{
+    
+    padding-left: 3%;
+}
+#content .box .box-right{
+    margin-left: 3%;
+}
+#content .box .box-right .box-title{
+    text-transform:uppercase;
+    
+}
+#content .box .box-right .box-dec{
+    font-family: 'Lato', sans-serif;
+    color: #898989;
+}
+#wb-content-container{
+    width: 100%;
+    background-color: #f4f5f7;
+    
+}
+#content-container{
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+#content-container .container-left{
+    padding-top: 65px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+}
+#content-container .container-left .container-left-child{
+    width: 40%;
+    padding-left: 10%;
+    display: flex;
+}
+#content-container .container-left .container-left-child i{
+    font-size: 30px;
+    padding-right: 5px;
+}
+#content-container .container-left .container-left-child div h3{
+    text-transform: uppercase;
+    color: #323232;
+
+}
+#content-container .container-left .container-left-child div div.crossbar{
+    width: 60px;
+    margin-left: 2px;
+    margin-top: 2px;
+    border-bottom: 4px solid darkblue;
+}
+#content-container .container-right{
+    width: 40%;
+}
+#content-container .container-right img{
+    max-width: 100%;
+}
+#content-service{
+    width: 100%;
+    position: relative;
+}
+#content-service #service-banner{
+    width: 100%;
+    z-index: 0;
+}
+#content-service #service-banner img{
+    max-width: 100%;
+    height: 410px;
+}
+#content-service #service{
+    width: 80%;
+    margin: 0px auto;
+    z-index: 100;
+    position: absolute;
+    top: 5%;
+    left: 15%;
+    display: flex;
+}
+#content-service #service .service-right{
+    padding-top: 50px;
+    padding-right:150px;
+}
+#content-service #service .service-right .service-title{
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+#content-service #service .service-right .service-dec{
+        font-size: 18px;
+        color: rgba(255, 255, 255, 0.7);
+        font-style: italic;
+        padding-bottom: 26px;
+}
+#content-service #service .service-right  .service-button:hover{
+
+}
+#content-service #service .service-right  .service-button{
+    
+    
+    background-color: #F7BE3D;
+    outline: none;
+    border: none;
+    width: 29%;
+    padding: 15px;
+    display: flex;  
+    border-radius: 3px;
+}
+#content-service #service .service-right  .service-button div
+{
+    height: 20px;
+    border-right: 3px solid red;
+}
+#content-service #service .service-right  .service-button a{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #202020;
+    font-weight: 500;
 
 }
